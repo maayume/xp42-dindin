@@ -1,0 +1,154 @@
+main {
+    padding-top: 111px;
+}
+
+.posts h1{
+    color: #FF4081;
+    width: 758px;
+    height: 46px;
+    padding: 0 310px 0;
+    font-weight: 500;
+    font-size: 50px;
+}
+.posts #img1{
+    padding: 107px 204px 64px;
+}
+.posts #img2{
+    padding: 0px 204px 111px;
+}
+.texto h1{
+    padding: 79px 356px; 
+    width: 528px;
+    height: 57px;
+    font-weight: 500;
+    font-size: 50px;
+}
+.container2{
+    color: #FF4081;
+    padding: 79px 156px 100.55px; 
+    background-color: #F6F6F6;
+    Height: 730px;
+    Top:712px;
+}
+.investimentos{
+    display: flex;
+}
+.tipos-investimentos1{
+    height: 270px;
+    color: #FF4081;
+    text-align: center;
+    weight: 300;
+}
+.tipos-investimentos1 h1{ 
+    font-size: 25px;
+    font-weight: 700;
+    font-style: bold;
+    width: 344px;
+    height: 29px;
+}
+.tipos-investimentos1 p{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+    width: 293px;
+    height: 60px;
+    padding-left: 28px;
+    text-align: center;
+}
+.tipos-investimentos1 li{
+    list-style: none;
+    width: 233px;
+    height: 51px;
+    padding: 15px 61px;
+}
+.tipos-investimentos1 li a{
+    border: 2px solid #FF4081;
+    color: #F6F6F6;
+    background: #FF4081;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 62px;
+    padding: 8.5px 26px;
+    display: block;
+    text-align: center;
+}
+.tipos-investimentos2{
+    padding-left: 177px;
+    height: 270px;
+    color: #FF4081;
+    text-align: center;
+    weight: 500;
+}
+.tipos-investimentos2 h1{ 
+    font-size: 25px;
+    font-weight: 700;
+    font-style: bold;
+    width: 344px;
+    height: 29px;
+}
+.tipos-investimentos2 p{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+    width: 293px;
+    height: 60px;
+    padding-left: 28px;
+    text-align: center;
+}
+.tipos-investimentos2 li{
+    list-style: none;
+    width: 233px;
+    height: 51px;
+    padding: 15px 61px;
+}
+.tipos-investimentos2 li a{
+    border: 2px solid #FF4081;
+    color: #F6F6F6;
+    background: #FF4081;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 62px;
+    padding: 8.5px 26px;
+    display: block;
+    text-align: center;
+}
+.tipos-investimentos3{
+    padding-left: 177px;
+    height: 270px;
+    color: #FF4081;
+    text-align: center;
+    weight: 500;
+}
+.tipos-investimentos3 h1{ 
+    font-size: 25px;
+    font-weight: 700;
+    font-style: bold;
+    width: 344px;
+    height: 29px;
+}
+.tipos-investimentos3 p{
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+    width: 293px;
+    height: 60px;
+    padding-left: 28px;
+    text-align: center;
+}
+.tipos-investimentos3 li{
+    list-style: none;
+    width: 233px;
+    height: 51px;
+    padding: 15px 61px;
+}
+.tipos-investimentos3 li a{
+    border: 2px solid #FF4081;
+    color: #F6F6F6;
+    background: #FF4081;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 62px;
+    padding: 8.5px 26px;
+    display: block;
+    text-align: center;
+}
