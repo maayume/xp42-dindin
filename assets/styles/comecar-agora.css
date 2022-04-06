@@ -1,18 +1,51 @@
-#paragrafo{
+.img-poupando span a{
     color: #FF4081;
     font-weight: 700;
-    width: 500px;
     font-size: 55px;
-    padding-left: 202px;
 }
-
-#img-invest{
-    padding-left: 751px;
-}
-#texto a{
+.img-poupando{
     display: flex;
-    padding: 0 202px;
-    width: 450px;
+    padding-left: 202px;
+    padding-bottom: 81px;
+}
+.img-poupando span{
+    padding-right: 37px;
+    width: 400px;
     font-size: 20px;
 }
+.div1{
+    background: #F6F6F6;
+    max-width: 1440px;
+    height: 1235px;
+    padding-bottom: 100px;
+}
+.aulas{
+    display: flex;
+    padding-left: 213px;
+    padding-bottom: 73px;
+    padding-top: 75px;
+    font-weight: 300;
+    font-size: 18px;
+    width: 724px;
+    list-style: none;
+}
+.aulas img{
+    padding-right: 76px;
+    padding-bottom: 53px;
+}
+.aulas span{
+    color: #FF4081;
+    font-size: 35px;
+    padding: 0 0 26px;
+    font-weight:700;
+}
+.aulas p{
+    font-weight: 300;
+    font-size: 20px;
+    width: 500px;
+}
+#linha{
+    padding-left: 98px;
+}
+
 
