@@ -1,0 +1,56 @@
+.img-blog span a{
+    color: #009688;
+    font-weight: 700;
+    font-size: 47px;
+    padding-bottom: 40px;
+}
+.img-blog{
+    display: flex;
+    padding-left: 202px;
+    padding-bottom: 89px;
+}
+.img-blog span{
+    padding-right: 125px;
+    width: 500px;
+    font-size: 20px;
+}
+.div1{
+    background: #F6F6F6;
+    max-width: 1440px;
+    height: 2000px;
+    padding-bottom: 100px;
+}
+.sobre{
+    display: flex;
+    padding-top: 109px;
+    padding-left: 171px;
+    padding-right: 120px;
+}
+.sobre img{
+    width: 518px;
+    height: 259px;
+}
+.div2 h1{
+    color: #FF4081;
+    font-size: 30px;
+    padding: 0;
+}
+.div2 p{
+    font-size: 17px;
+    width: 500px;
+    padding: 0;
+}
+.div3{
+    padding: 0 109px 109px;
+}
+.div3 h1{
+    display: flex;
+    color: #FF4081;
+    font-size: 30px;
+    padding: 0;
+}
+.div3 p{
+    font-size: 17px;
+    width: 500px;
+    padding: 0;
+}
