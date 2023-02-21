@@ -12,7 +12,7 @@ main {
 
 }
 
-img {
+#image-contact {
   width: 35vw;
   height: 35vw;
 }
@@ -46,11 +46,12 @@ input {
 }
 
 @media (max-width: 780px){
-  img {
+  #image-contact {
     display: none;
   }
   .content-contact {
     width: 90vw;
+    margin-block: 12vh;
   }
 
 }

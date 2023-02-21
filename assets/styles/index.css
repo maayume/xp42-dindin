@@ -185,3 +185,15 @@
     display: block;
     text-align: center;
 }
+
+@media (max-width: 400px){
+    .content img, .content p {
+        width: 80vw;
+    }
+    .content-index {
+        margin-top: 0px;
+    }
+    .container-aboutus {
+        padding: 1vw;
+    }
+}

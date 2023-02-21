@@ -16,12 +16,13 @@ header, footer {
 }
 
 #logo, #logoFooter {
-    background: url('../img/logo-header.png') 0 0 no-repeat;
-    height: 12vh;
+    align-items: center;
 }
 
 #logo a, #logoFooter a {
     color: transparent;
+    position: fixed;
+    align-items: center;
 }
 
 #navigationHeader ul {
@@ -69,8 +70,11 @@ header, footer {
 }
 
 @media (max-width: 880px){
-    #logoFooter {
+    .buttons-footer {
         display: none;
+    }
+    .container {
+        justify-content: center;
     }
 }
 /* .container{
