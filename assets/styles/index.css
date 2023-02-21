@@ -1,8 +1,12 @@
 main {
     padding-top: 81px;
-    max-width: 1440px;
+    max-width: 100%;
 }
 
+.paragrafoHero {
+    display: flex;
+}
+/* 
 aside {
     display: flex;
     color: transparent;
@@ -286,4 +290,4 @@ aside {
     padding: 8.5px 26px;
     display: block;
     text-align: center;
-}
+} */

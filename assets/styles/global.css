@@ -1,13 +1,85 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
-.container{
-    width: 1440px;
+
+header, footer {
+    background-color: #2E948A;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5vw;
+}
+
+#logo, #logoFooter {
+    background: url('../img/logo-header.png') 0 0 no-repeat;
+    height: 12vh;
+}
+
+#logo a, #logoFooter a {
+    color: transparent;
+}
+
+#navigationHeader ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+#navigationHeader ul li a{
+    text-decoration: none;
+    color: #E5E5E5;
+    font-size: 20px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    padding: 0 10px;
+
+}
+
+.navigationFooter ul li {
+    list-style: none;
+}
+
+.navigationFooter ul li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400px;
+    text-transform: lowercase;
+}
+
+.links-anexos a{
+    border: 2px solid white;
+    border-radius: 62px;
+    padding: 14px 51px;
+    display: block;
+    margin: 0 0 14px;
+    text-align: center;
+}
+
+@media (max-width: 635px){
+    #navigationHeader {
+        display: none;
+    }
+}
+
+@media (max-width: 880px){
+    #logoFooter {
+        display: none;
+    }
+}
+/* .container{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
 header{
+    width: 100%;
     background: #2E948A;
     display: flex;
     justify-content: center;
@@ -16,7 +88,6 @@ header h2 a{
     display: block;
     color: transparent;
     background: url('../img/logo-header.png') 0 0 no-repeat;
-    width: 244px;
     height: 77px;
 }
 header nav ul{
@@ -87,4 +158,4 @@ footer a{
     header h2{  
         margin: 10px 0;
     }
-}
+} */
