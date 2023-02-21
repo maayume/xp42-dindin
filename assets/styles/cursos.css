@@ -3,14 +3,14 @@ main {
     padding: 0px;
 }
 
-#titulo{
-    justify-content: center;
+#title{
+    display: grid;
     color: #FF4081;
     font-weight: 700;
     font-size: 60px
 }
 
-.curso {
+.course {
     padding: 30px 0 30px 0;
     display: flex;
     list-style: none;
@@ -18,7 +18,7 @@ main {
     justify-content: center;
 }
 
-.curso span{
+.course span{
     display: flex;
     color: #FF4081;
     font-size: 35px;
@@ -26,7 +26,7 @@ main {
     font-weight:700;
 }
 
-.curso p{
+.course p{
     padding-left: 20px;
     padding-bottom: 53px;
     font-weight: 300;
@@ -34,11 +34,11 @@ main {
     width: 50vw;
 }
 
-.linha {
+.line {
     width: 85vw;
 }
 
-.comecar-agora{
+.start-now-button{
     background: #419488;
     width: 233px;
     margin-left: 20px;
@@ -57,91 +57,3 @@ main {
         margin: 20px 0 20px 20px;
     }
 }
-/* #titulo{
-    color: #FF4081;
-    font-weight: 700;
-    width: 263px;
-    font-size: 60px
-}
-#paragrafo{
-    padding-top: 81px;
-    padding-left: 82px;
-    width: 317px;
-    padding-left: 82px;
-}
-#paragrafo a{
-    color: #555555;
-    font-weight: 400;
-    font-size: 20px;
-}
-#curso1{
-    display: flex;
-    padding-left: 53px;
-    padding-bottom: 53px;
-    padding-top: 95px;
-    font-weight: 300;
-    font-size: 18px;
-    width: 724px;
-    list-style: none;
-}
-#curso1 img{
-    padding-left: 112px;
-    padding-right: 53px;
-}
-#curso1 span{
-    color: #FF4081;
-    font-size: 35px;
-    padding: 0 0 37px;
-    font-weight:700;
-}
-#curso1 p{
-    padding-bottom: 53px;
-    font-weight: 300;
-    font-size: 18px;
-    width: 724px;
-}
-#comecar-agora{
-    background: #419488;
-    width: 233px;
-    height: 51px;
-    border-radius: 62px;
-    list-style: none;
-}
-#comecar-agora{
-    color: #F6F6F6;
-    font-size: 20px;
-    width: 216px;
-    height: 25px;
-    padding: 15px 61px;
-    font-weight: 400;
-    text-decoration: none;
-}
-#curso3{
-    display: flex;
-    padding-left: 53px;
-    padding-bottom: 68px;
-    padding-top: 107px;
-    font-weight: 300;
-    font-size: 18px;
-    width: 724px;
-    list-style: none;
-}
-#curso3 img{
-    padding-left: 128px;
-    padding-right: 120px;
-}
-#curso3 span{
-    color: #FF4081;
-    font-size: 35px;
-    padding: 0 0 37px;
-    font-weight:700;
-}
-#curso3 p{
-    padding-bottom: 53px;
-    font-weight: 300;
-    font-size: 18px;
-    width: 724px;
-}
-#linha{
-    padding-left: 82px;
-} */

@@ -1,34 +1,33 @@
-#imgPoupando{
+#img-spare{
     padding: 10vh;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-#imgPoupando #textHero a{
+#img-spare #text-hero-start a{
     color: #FF4081;
     font-weight: 700;
     font-size: 55px;
 }
 
-#textHero p {
+#text-hero-start p {
     line-height: 35px;
 }
 
-#imgPoupando #textHero {
+#img-spare #text-hero-start {
     width: 40vw;
     font-size: 20px;
     padding-right: 70px;
     text-align: justify;
 }
 
-.div1{
+.content{
     background: #F6F6F6;
     max-width: 100%;
     padding: 5vw;
 }
 
-.aulas {
+.classes {
     justify-content: center;
     display: flex;
     list-style: none;
@@ -38,97 +37,57 @@
     flex-wrap: wrap;
 }
 
-.aulas img{
+.classes img{
     padding: 0 30px 30px 0;
     padding-bottom: 53px;
 }
 
-.aulas span{
+.classes span{
     color: #FF4081;
     font-size: 35px;
     padding: 0 0 26px;
     font-weight:700;
 }
+.content-text {
+    width: 45vw;
+}
 
-.aulas p{
+.classes p{
     font-weight: 300;
     font-size: 20px;
 }
 
-.aulas div {
-    width: 45vw;
+.content p {
+    width: 100%;
+}
+.classes div {
     text-align: justify;
 }
 
-.linha{
+.line{
     justify-content: center;
     width: 80vw;
     padding-left: 50px;
 }
 
-@media (max-width: 1026px){
-    #imgPoupando img{
+@media (max-width: 1090px){
+    #img-spare img{
         display: none;
     }
-    #imgPoupando #textHero {
-        width: 90vw;
+    #img-spare #text-hero-start {
+        width: 80vw;
         padding: 0px;
     }
-}
-
-@media (max-width: 955px){
-    .aulas div {
-        width: 78vw;
+    .content p {
+        width: 90vw;
+    }
+    .classes div {
+        width: 100vw;
     }
 }
-/* .img-poupando span a{
-    color: #FF4081;
-    font-weight: 700;
-    font-size: 55px;
-}
-.img-poupando{
-    display: flex;
-    padding-left: 202px;
-    padding-bottom: 81px;
-}
-.img-poupando span{
-    padding-right: 37px;
-    width: 400px;
-    font-size: 20px;
-}
-.div1{
-    background: #F6F6F6;
-    max-width: 1440px;
-    height: 1235px;
-    padding-bottom: 100px;
-}
-.aulas{
-    display: flex;
-    padding-left: 213px;
-    padding-bottom: 73px;
-    padding-top: 75px;
-    font-weight: 300;
-    font-size: 18px;
-    width: 724px;
-    list-style: none;
-}
-.aulas img{
-    padding-right: 76px;
-    padding-bottom: 53px;
-}
-.aulas span{
-    color: #FF4081;
-    font-size: 35px;
-    padding: 0 0 26px;
-    font-weight:700;
-}
-.aulas p{
-    font-weight: 300;
-    font-size: 20px;
-    width: 500px;
-}
-#linha{
-    padding-left: 98px;
-}
 
- */
+@media (max-width: 1090px){
+    .classes {
+        display: flex;
+    }
+}

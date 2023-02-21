@@ -1,0 +1,56 @@
+
+main {
+  display: flex;
+  margin: 5vw;
+  padding: 0px;
+  align-items: end;
+  justify-content: space-around;
+}
+
+#title-contact {
+  display: grid;
+
+}
+
+img {
+  width: 35vw;
+  height: 35vw;
+}
+
+#title {
+  display: grid;
+  color: #FF4081;
+  font-weight: 700;
+  font-size: 60px
+}
+
+.content-contact {
+  display: grid;
+  margin-top: 5vh;
+  width: 45vw;
+}
+
+input {
+  border-radius: 5px;
+  padding: 8px;
+  border-width: 0.5px;
+  margin-block: 1vw;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+#size-input-message {
+  height: 20vh;
+}
+
+@media (max-width: 780px){
+  img {
+    display: none;
+  }
+  .content-contact {
+    width: 90vw;
+  }
+
+}
