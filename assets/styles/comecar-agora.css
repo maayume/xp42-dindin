@@ -1,25 +1,31 @@
 #imgPoupando{
+    padding: 10vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#imgPoupando span a{
+#imgPoupando #textHero a{
     color: #FF4081;
     font-weight: 700;
     font-size: 55px;
 }
 
-#imgPoupando span {
-    width: 400px;
+#textHero p {
+    line-height: 35px;
+}
+
+#imgPoupando #textHero {
+    width: 40vw;
     font-size: 20px;
-    padding-right: 37px;
+    padding-right: 70px;
     text-align: justify;
 }
 
 .div1{
     background: #F6F6F6;
     max-width: 100%;
+    padding: 5vw;
 }
 
 .aulas {
@@ -36,13 +42,14 @@
     padding: 0 30px 30px 0;
     padding-bottom: 53px;
 }
+
 .aulas span{
-    padding-left: 76px;
     color: #FF4081;
     font-size: 35px;
     padding: 0 0 26px;
     font-weight:700;
 }
+
 .aulas p{
     font-weight: 300;
     font-size: 20px;
@@ -57,6 +64,22 @@
     justify-content: center;
     width: 80vw;
     padding-left: 50px;
+}
+
+@media (max-width: 1026px){
+    #imgPoupando img{
+        display: none;
+    }
+    #imgPoupando #textHero {
+        width: 90vw;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 955px){
+    .aulas div {
+        width: 78vw;
+    }
 }
 /* .img-poupando span a{
     color: #FF4081;
