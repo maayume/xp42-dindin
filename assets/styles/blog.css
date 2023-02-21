@@ -1,56 +1,58 @@
-.img-blog span a{
+.blogHero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 6vw;
+    align-items: center;
+}
+
+.textBlogHero {
+    width: 40vw;
+}
+
+.textBlogHero a {
     color: #009688;
     font-weight: 700;
     font-size: 47px;
     padding-bottom: 40px;
 }
-.img-blog{
-    display: flex;
-    padding-left: 202px;
-    padding-bottom: 89px;
-}
-.img-blog span{
-    padding-right: 125px;
-    width: 500px;
+
+.textBlogHero p {
     font-size: 20px;
+    line-height: 40px;
 }
-.div1{
+
+@media (max-width: 1000px) {
+    .blogHero img {
+        display: none;
+    }
+    .textBlogHero {
+        width: 90vw;
+    }
+}
+
+.contentBlog {
     background: #F6F6F6;
-    max-width: 1440px;
-    height: 2000px;
-    padding-bottom: 100px;
 }
-.sobre{
+
+.aboutContent {
     display: flex;
-    padding-top: 109px;
-    padding-left: 171px;
-    padding-right: 120px;
+    padding: 5vw;
 }
-.sobre img{
-    width: 518px;
-    height: 259px;
+
+.aboutText {
+    max-width: 60vw;
+    padding: 20px;
+    text-align: justify;
 }
-.div2 h1{
-    color: #FF4081;
-    font-size: 30px;
-    padding: 0;
-}
-.div2 p{
-    font-size: 17px;
-    width: 500px;
-    padding: 0;
-}
-.div3{
-    padding: 0 109px 109px;
-}
-.div3 h1{
-    display: flex;
-    color: #FF4081;
-    font-size: 30px;
-    padding: 0;
-}
-.div3 p{
-    font-size: 17px;
-    width: 500px;
-    padding: 0;
+
+@media (max-width: 982px) {
+    .aboutContent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutText {
+        text-align: center;
+        padding: 0px;
+    }
 }
